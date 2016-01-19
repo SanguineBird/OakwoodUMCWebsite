@@ -1,3 +1,8 @@
+/* templatemo_style.css
+formatting for Oakwood UMC official site
+Modified by Meghan Moore
+Last Update: Jan. 18, 2016 */
+
 /*
 
 Urbanic Template
@@ -9,17 +14,18 @@ http://www.templatemo.com/free-website-templates/395-urbanic
 body, html { overflow-x:hidden; }
 
 body {
-    background-color: #ffffff;
-    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
-    font-size: 12px;
-	
-	font-weight: 300;
+  background-color: #ffffff;
+  font-family:  'Open Sans', Arial, 'Helvetice Neue', sans-serif;
+  font-size: 14px;
+	font-weight: 600;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
+	font-variant: normal;
+	color: #999;
 }
 
-h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, 'Helvetice Neue', sans-serif; }
 
 * {
   -webkit-border-radius: 0 !important;
@@ -249,7 +255,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .team_hr_left {
     margin-right: 30px;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .team_hr_right {
@@ -261,15 +267,15 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/background.png') ;
+    background: url('../images/WoodGrain.jpg') ;
     font-family:  'Open Sans', sans-serif;
     min-height:590px;
     color:#ffffff;
 
 }
 .templatemo-line-header {
-    margin-top:100px;
-    margin-bottom:80px;
+    margin-top:30px;
+    margin-bottom:50px;
 }
 
 .member-thumb:hover .thumb-overlay {
@@ -281,6 +287,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .member-thumb {
     position: relative;
     overflow: hidden;
+    margin: auto;
+    width: 40%;
 }
 
 .member-thumb .thumb-overlay {
@@ -392,7 +400,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .span_blog {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .blog_post {
@@ -409,11 +417,20 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     text-align: justify;
     font-size: 14px;
     margin-top: 20px;
+    color: #333333;
+}
+
+.about_text {
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #333333;
+    padding: 10px;
 }
 
 #templatemo-contact {
 	margin-top:100px;
-	border-top: 1px solid #cccccc;
+	/*border-top: 1px solid #cccccc;*/
 	font-size:14px;
 }
 .templatemo-contact-map {
@@ -434,6 +451,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .contact_right form {
 	padding-left:15px;
 	padding-right:15px
+}
+
+.contact_right p {
+  color: #333333;
 }
 
 .tweet_txt {
@@ -592,6 +613,12 @@ ul.templatemo-project-gallery  li  a img:hover {
 
 .blog_box {
 	margin-left: -12px;
+}
+
+#home-page-image {
+    margin: auto;
+    width: 75%;
+    padding: 30px;
 }
 
 @media (min-width:991px) and (max-width:1200px) {
